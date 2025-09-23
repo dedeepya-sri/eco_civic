@@ -1,0 +1,30 @@
+[
+  {
+    "id": "s_1727000000000",
+    "userId": "u_demo",
+    "challengeId": "act1",
+    "photoUrl": "/uploads/sample1.jpg",
+    "lat": 17.441,
+    "lng": 78.389,
+    "timestamp": "2025-09-22T14:30:00.000Z",
+    "ai": {
+      "confidence": 0.82,
+      "result": "approved"
+    },
+    "notes": "Planted a sapling near school"
+  },
+  {
+    "id": "s_1727001234567",
+    "userId": "u_demo",
+    "challengeId": "act2",
+    "photoUrl": "/uploads/sample2.jpg",
+    "lat": 17.442,
+    "lng": 78.392,
+    "timestamp": "2025-09-22T15:05:00.000Z",
+    "ai": {
+      "confidence": 0.61,
+      "result": "needs_review"
+    },
+    "notes": "Segregated waste bins at home"
+  }
+]

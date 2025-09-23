@@ -1,0 +1,178 @@
+.profile-edit-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  padding: 6px;
+  transition: box-shadow 0.2s;
+}
+.profile-edit-btn:hover {
+  box-shadow: 0 4px 16px rgba(66,165,245,0.15);
+}
+:root{
+--green:#2E8B57;
+--light:#E6F8EE;
+--brown:#6B4F3B;
+--accent:#FFB74D;
+}
+body{font-family: Inter, system-ui, sans-serif; margin:0; background:var(--light); color:#222}
+.app{display:flex; flex-direction:row; min-height:100vh}
+.app-header{background:linear-gradient(90deg,var(--green), #5bb07a); color:white; padding:18px}
+.app-main{flex:1; padding:20px}
+.app-nav{display:flex; gap:8px; padding:12px; background:#fff; border-top:1px solid #eee}
+.nav-btn{flex:1; padding:10px; border-radius:8px; border:1px solid #ddd; background:white}
+.nav-btn.active{background:var(--green); color:white}
+.card{background:white; padding:16px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.06); margin-bottom:12px}
+.small{font-size:0.9rem}
+.btn{background:var(--green); color:white; border:none; padding:10px 12px; border-radius:8px; cursor:pointer}
+/* ...existing code... */
+
+.app-sidebar {
+  width: 200px;
+  background: var(--green);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 24px 0;
+  min-height: 100vh;
+}
+.sidebar-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav-btn-vertical {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 1rem;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.nav-btn-vertical.active,
+.nav-btn-vertical:hover {
+  background: var(--accent);
+  color: #222;
+}
+.app-main {
+  flex: 1;
+  padding: 32px;
+}
+/* ...existing code... */
+.hamburger-menu {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  width: 32px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1001;
+}
+.hamburger-menu span {
+  display: block;
+  height: 4px;
+  background: #222;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+.menu-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 32px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 12px 0;
+  z-index: 1002;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-item {
+  background: none;
+  border: none;
+  color: #222;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.menu-item:hover {
+  background: var(--accent);
+  color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.eco-title {
+  font-family: 'Fredoka One', 'Comic Sans MS', 'Baloo 2', cursive, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--green);
+  text-align: center;
+  margin: 24px auto 36px auto;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 16px rgba(66,165,245,0.10), 0 2px 0 #fff;
+  border-radius: 0 0 60px 60px/0 0 40px 40px;
+  background: linear-gradient(90deg, #e0f7fa 0%, #b2ebf2 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 18px 0 24px 0;
+  box-shadow: 0 2px 12px rgba(46,139,87,0.08);
+  position: relative;
+  width: 100%;
+}
+.eco-tree {
+  font-size: 2.2rem;
+  margin: 0 18px 0 18px;
+  filter: drop-shadow(0 2px 2px #b2ebf2);
+}
+.profile-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(66, 165, 245, 0.10);
+  padding: 32px 40px 28px 40px;
+  min-width: 320px;
+  max-width: 360px;
+  text-align: center;
+  position: relative;
+}
+.profile-avatar {
+  margin-top: -60px;
+  margin-bottom: 8px;
+}
+.profile-info p {
+  margin: 10px 0;
+  font-size: 1.08rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-edit-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  padding: 6px;
+  transition: box-shadow 0.2s;
+}
+.profile-edit-btn:hover {
+  box-shadow: 0 4px 16px rgba(66,165,245,0.15);
+}
