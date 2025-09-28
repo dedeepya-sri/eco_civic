@@ -176,3 +176,70 @@ body{font-family: Inter, system-ui, sans-serif; margin:0; background:var(--light
 .profile-edit-btn:hover {
   box-shadow: 0 4px 16px rgba(66,165,245,0.15);
 }
+/* EcoCivic Title */
+.eco-title {
+  font-family: 'Fredoka One', cursive, sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.eco-text {
+  color: #34c759; /* green */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.civic-text {
+  color: #0a84ff; /* blue */
+  margin-left: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Tagline */
+.eco-tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Student / Teacher Buttons */
+.eco-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.eco-btn {
+  background-color: #34c759;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.eco-btn:hover {
+  background-color: #2ba94f;
+  transform: scale(1.05);
+}
+/* Home Page Layout */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card customizations */
+.welcome-card {
+  border-left: 6px solid #34c759; /* eco green accent */
+}
+
+.challenge-card {
+  border-left: 6px solid #0a84ff; /* eco blue accent */
+}
